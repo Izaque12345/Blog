@@ -1,0 +1,207 @@
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 11pt;
+    margin: 0;
+    background: url('/Hectic Thoughts.png');
+    color: white;
+    position: relative;
+    top: 70px;
+  }
+
+  div {
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+  }
+
+  .blue, .green, .orange, .pink, .grey {
+    color: white;
+  }
+
+  .yellow, .white {
+    color: black;
+  }
+  
+  .green, .orange, .pink, .yellow {
+    display: none;
+  }
+  
+  .white {
+    background: white;
+  }
+
+  .blue {
+    background: #0D1A6E;
+  }
+
+  .grey {
+    background: #3E4052;
+  }
+
+  .green {
+    background: #40CB16;
+  }
+
+  .orange {
+    background: #F47412;
+  }
+
+  .pink {
+    background: #F412BF;
+  }
+
+  .yellow {
+    background: #F4EB12;
+  }
+
+  .botao {
+    padding: 10px;
+    border-radius: 100px;
+    background: #10A226;
+    color: white;
+  }
+
+  .botao:active {
+    background: white;
+    color: black;
+  }
+
+  .img-link:active {
+    border: 2px solid white;
+    border-radius: 10px;
+  }
+  
+  .img-link_black:active {
+    /*border: 2px solid black;*/
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #00000030;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    color: #009621;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    /*box-shadow: 0px 0px 5px #00000030;*/
+  }
+
+  .logo {
+    margin: 10px;
+  }
+
+  .foto-do-autor-na-logo {
+    height: 8px;
+    width: 8px;
+    border-radius: 400px;
+    background:
+      /*#3D3D3D*/
+      url('/Hectic Thoughts.png');
+    background-position: 42%;
+    position: relative;
+  }
+
+  .sem-margin {
+    margin: 0;
+  }
+
+  .botao-de-comando {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    height: 50px;
+    width: 50px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background: white;
+    color: #000;
+  }
+
+  .botao-de-comando:active {
+    background: /*#10A226*/ #BDBDBD;
+    color: #fff;
+    box-shadow: 0px 0px 5px #00000030;
+  }
+
+  .area-do-autor {
+    height: 40px;
+    display: flex;
+    align-items: center;
+  }
+
+  .foto-do-autor {
+    height: 11px;
+    width: 11px;
+    border-radius: 400px;
+    background:
+      /*#3D3D3D*/
+      url('/Hectic Thoughts.png');
+    background-position: 42%;
+  }
+
+  .autor {
+    margin: 8px;
+    padding: 0;
+  }
+  .caixa-do-botao_mais-informacoes {
+    padding: 0;
+    margin-left: 10px;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+  
+  .area-mais-informacoes {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*animation: entrada_pela_esquerda 1s forwards;*/
+    background: /* tema escuro #262626 */ /* tema claro */ white;
+    color: /* tema escuro white */ /* tema claro */ black;
+  }
+  
+  @keyframes entrada_pela_esquerda {
+    from {
+      opacity: 0%;
+    }
+    to {
+      opacity: 100%;
+    }
+  }
+  .opcao-mais-informacoes {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*height: 15px;*/
+    height: 20px;
+    border-radius: 100px;
+    margin: 5px;
+    background: /* tema escuro #3C3C3C */ /* tema claro #D5D5D5*/ white;
+    box-shadow: 2px 2px 7px #00000029;
+  }
+  
+  .opcao-mais-informacoes:active {
+    opacity: 75%;
+    background: #D5D5D5;
+  }
+  
+  .texto-mais-informacoes, .incone-mais-informacoes {margin: 5px;}
+}
